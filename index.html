@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Jatin Shandilya - AI/ML Student & Developer Portfolio. Showcasing projects, skills, and achievements in web development and artificial intelligence.">
+    <meta name="keywords" content="Jatin Shandilya, AI ML, Web Developer, Portfolio, College of Engineering Roorkee">
+    <meta name="author" content="Jatin Shandilya">
+    <title>Jatin Shandilya | AI/ML Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">JS</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                <li><a href="#certificates" class="nav-link" data-section="certificates">Certificates</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Jatin Shandilya</span>
+                </h1>
+                <p class="hero-subtitle">
+                    <span id="typedText"></span>
+                    <span class="cursor">|</span>
+                </p>
+                <p class="hero-description">
+                    19-year-old AI/ML enthusiast from College of Engineering Roorkee,
+                    passionate about building intelligent solutions and beautiful web experiences.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#certificates" class="btn btn-secondary">View Certificates</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="assets/profile.jpg" alt="Jatin Shandilya Profile Photo">
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Aspiring AI/ML Engineer & Full Stack Developer</h3>
+                    <p>
+                        I'm a first-year B.Tech student specializing in Artificial Intelligence and Machine Learning
+                        at the prestigious College of Engineering Roorkee. At 19, I'm driven by curiosity and a
+                        passion for technology that transforms ideas into reality.
+                    </p>
+                    <p>
+                        My journey in tech began with web development, mastering HTML, CSS, and JavaScript to create
+                        engaging user experiences. I've expanded my expertise to include Python for AI/ML applications
+                        and C++ for competitive programming and algorithmic problem-solving.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h4>19</h4>
+                            <p>Years Old</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>5+</h4>
+                            <p>Languages</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>1st Year</h4>
+                            <p>B.Tech AIML</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+            <p class="section-subtitle">Technologies I work with to bring ideas to life</p>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="html">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 19.5h20L12 2z" />
+                            <path d="M12 8v8M8 12h8" />
+                        </svg>
+                    </div>
+                    <h3>HTML</h3>
+                    <p>Semantic markup and accessibility-focused structure</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="--skill-width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="css">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2" />
+                            <path d="M7 7h10M7 12h10M7 17h10" />
+                        </svg>
+                    </div>
+                    <h3>CSS</h3>
+                    <p>Modern styling with animations and responsive design</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="--skill-width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="javascript">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2l9 4.5v9L12 22l-9-6.5v-9L12 2z" />
+                            <path d="M12 12l9-4.5M12 12v10M12 12L3 7.5" />
+                        </svg>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Interactive web applications and DOM manipulation</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="--skill-width: 80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="python">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M12 6v12M6 12h12" />
+                        </svg>
+                    </div>
+                    <h3>Python</h3>
+                    <p>AI/ML development, data analysis, and automation</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="--skill-width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card" data-skill="cpp">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 7h16M4 12h16M4 17h16" />
+                            <rect x="2" y="4" width="20" height="16" rx="2" />
+                        </svg>
+                    </div>
+                    <h3>C++</h3>
+                    <p>Competitive programming and algorithm implementation</p>
+                    <div class="skill-level">
+                        <div class="skill-bar" style="--skill-width: 75%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title">My <span class="gradient-text">Certificates</span></h2>
+            <p class="section-subtitle">Achievements and continuous learning journey</p>
+            <div class="certificates-grid" id="certificatesGrid">
+                <div class="certificate-placeholder">
+                    <div class="placeholder-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2v20M2 12h20" />
+                            <circle cx="12" cy="12" r="10" />
+                        </svg>
+                    </div>
+                    <p>Add your certificates to the<br><code>assets/certificates/</code> folder</p>
+                    <small>Supported formats: JPG, PNG, PDF</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+            <p class="section-subtitle">Let's collaborate and build something amazing together</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:jatin.shandilya@example.com">jatin.shandilya@example.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z" />
+                                <circle cx="4" cy="4" r="2" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com/in/jatinshandilya"
+                                target="_blank">linkedin.com/in/jatinshandilya</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/jatinshandilya" target="_blank">github.com/jatinshandilya</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="nameInput" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="emailInput" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="messageInput" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Jatin Shandilya. Crafted with passion and code.</p>
+            <div class="social-links">
+                <a href="https://github.com/jatinshandilya" target="_blank" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                    </svg>
+                </a>
+                <a href="https://linkedin.com/in/jatinshandilya" target="_blank" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="certificateModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose" aria-label="Close modal">&times;</button>
+            <img id="modalImage" src="" alt="Certificate">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
